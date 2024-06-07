@@ -60,19 +60,40 @@ This gives 14 as output.
 
 # Question 4
 ```
-Which of the following functions must use reference.
-1. Assignment operator function
-2. Destructor
-3. Copy Constructor
-4. Parameterized constructor
+int *reverse(int *);
+int main()
+{
+    int x[5] = {1, 2, 3, 4, 5};
+    int i, *p;
+    // exchange values
+    p = reverse(x);
+    // output the array x
+    for (i = 0; i < 5; i++)
+    {
+        cout << *(p + i) << " ";
+    }
+    return 0;
+}
+
+int *reverse(int *p)
+{
+    int i;
+    // exchange values
+    for (i = 0; i < 2; i++)
+    {
+        int temp = *(p + i);
+        *(p + 4 - i) = temp;
+    }
+    return p;
+}
 ```
 #### Output: 
 ```
-3. Copy Constructor
+None of the mentioned
 ```
 #### Explanation: 
-copy constructor is called when an object is passed by value. Copy constructor itself is a function. So if we pass argument by value in a copy constructor, a call to copy constructor would be made to call copy constructor which
-becomes a non-terminating chain of calls. Therefore compiler doesn't allow parameters to be pass by value.
+p points to array x then exchange values using pointer in the for loop to after exchanging value the last loop print the value but in this program reverse function
+getting the address of the array and and address of the address p the reverse it but output is not mention output is 5 4 3 2 1
 
 # Question 5
 ```
@@ -94,15 +115,28 @@ int i; double* dp = &i;
 
 # Question 7
 ```
-Which of the following operator is used while declaring references?
-1. *
-2. &
-3. @
-4. ->
+int main()
+{
+    int num[5];
+    int *p;
+    p = num;
+    *p = 10;
+    p++;
+    *p = 20;
+    p = &num[2];
+    *p = 30;
+    p = num + 3;
+    *p = 40;
+    p = num;
+    *(p + 4) = 50;
+    for (int i = 0; i < 5; i++)
+        cout << num[i] << ", ";
+    return 0;
+}
 ```
 #### Output: 
 ```
-2. &
+10, 20, 30, 40, 50,
 ```
 
 # Question 8
@@ -140,21 +174,16 @@ ABCDEFGH
 ```
 int main(int argc, char const *argv[])
 {
-    int a = 5;
-    int *p = &a;
-    int *(&q) = p;
-    cout << q;
+    int arr[] = {4, 5, 6, 7};
+    int *p = (arr + 1);
+    cout << *p;
     return 0;
 }
 ```
 #### Output: 
 ```
-Address of pointer a
+5
 ```
-
-#### Explanation
-The program is correct so the the program runs perfectly. It is way to assign pointers to references. The program prints the address of a because it is an alias for pointer p and pointer p stores the address of a therefore answer is
-address of a.
 
 
 # That's it folks! Happy Coding :)
