@@ -21,10 +21,10 @@ In this video, the presenter discusses the importance of file handling in C++ pr
 flowchart TD
     A[ios] -->
     B[istream] 
+    B --> D[ifstream]
     B -->  E[iostream]
     A --> C[ostream]
     C --> E
-    B --> D[ifstream]
     C --> F[ofstream]
     E --> G[fstream]
 ```
