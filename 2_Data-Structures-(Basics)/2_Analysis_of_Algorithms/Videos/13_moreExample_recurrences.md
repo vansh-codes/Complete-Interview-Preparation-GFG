@@ -5,39 +5,39 @@
    - The recursion tree method is a general approach to solve recurrences, especially useful for understanding the work done at each level of recursion.
 
 2. **Example Recurrence Relation**:
-   - Given a recurrence \( T(n) = 2T(n-1) + C \):
+   - Given a recurrence $T(n) = 2T(n-1) + C$:
      - **Step 1**: Write the non-recursive part (C) as the root.
      - **Step 2**: Expand the recursive calls to form the tree.
      - **Step 3**: Identify the work done at each level:
-       - Level 1: \( C \)
-       - Level 2: \( 2C \)
-       - Level 3: \( 4C \)
-       - Level 4: \( 8C \)
-     - The total work done forms a geometric series \( C + 2C + 4C + \ldots \).
+       - Level 1: $C$
+       - Level 2: $2C$
+       - Level 3: $4C$
+       - Level 4: $8C$
+     - The total work done forms a geometric series $C + 2C + 4C + \ldots$.
 
 3. **Identifying Patterns and Solving the Series**:
-   - The series has \( n \) terms for input size \( n \).
+   - The series has $n$ terms for input size $n$.
    - It is a geometric progression with a common ratio of 2.
-   - The sum of the series is \( C \times (2^n - 1) / (2 - 1) \), simplifying to \( \Theta(2^n) \).
+   - The sum of the series is $C \times (2^n - 1) / (2 - 1)$, simplifying to $\Theta(2^n)$.
    - This type of recurrence is common in problems like the Tower of Hanoi.
 
 4. **Binary Search Example**:
-   - Given a recurrence \( T(n) = T(n/2) + C \):
+   - Given a recurrence $T(n) = T(n/2) + C$:
      - **Step 1**: Write the non-recursive part (C) as the root.
      - **Step 2**: Expand the recursive calls.
-     - The work done at each level is \( C \).
-     - The height of the tree is \( \log_2(n) \).
-     - The total work done is \( C \times \log_2(n) \), giving \( \Theta(\log n) \).
+     - The work done at each level is $C$.
+     - The height of the tree is $\log_2(n)$.
+     - The total work done is $C \times \log_2(n)$, giving $\Theta(\log n)$.
      - This type of recurrence is common in binary search algorithms.
 
 5. **Modified Recurrence with Multiple Calls**:
-   - Given a recurrence \( T(n) = 2T(n/2) + C \):
+   - Given a recurrence $T(n) = 2T(n/2) + C$:
      - **Step 1**: Write the non-recursive part (C) as the root.
      - **Step 2**: Expand the recursive calls.
-     - The work done at each level increases as \( C, 2C, 4C, \ldots \).
-     - The height of the tree is \( \log_2(n) \).
-     - The sum of the work done forms a geometric series with \( \log_2(n) \) terms.
-     - The total work done is \( \Theta(n) \).
+     - The work done at each level increases as $C, 2C, 4C, \ldots$.
+     - The height of the tree is $\log_2(n)$.
+     - The sum of the work done forms a geometric series with $\log_2(n)$ terms.
+     - The total work done is $\Theta(n)$.
 
 6. **General Methodology**:
    - Draw the recursion tree.

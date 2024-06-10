@@ -20,15 +20,15 @@
 
 5. **Finding the Height of the Tree**:
    - The height of the binary tree represents the number of recursive levels.
-   - It can be expressed as \( \Theta(\log n) \), where \( n \) is the input size.
+   - It can be expressed as $\Theta(\log n)$, where $n$ is the input size.
 
 6. **Determining Total Work**:
-   - The total work done is \( \Theta(n \log n) \) by analyzing the number of terms and their values.
+   - The total work done is $\Theta(n \log n)$ by analyzing the number of terms and their values.
    - Lower-order terms are ignored in asymptotic analysis.
 
 7. **Consideration of Different Constants**:
    - In practical scenarios like merge sort, different constants may be present for different operations.
-   - However, the overall complexity remains \( \Theta(n \log n) \) due to the dominant term.
+   - However, the overall complexity remains $\Theta(n \log n)$ due to the dominant term.
 
 ### Summary:
 The recursion tree method provides a general approach to solving recurrences without relying on specific formulas. By drawing a tree representing recursive calls and computing the total work done, programmers can intuitively analyze the time complexity of recursive algorithms. Despite variations in constants, the asymptotic complexity remains consistent, making it a practical tool for algorithm analysis.

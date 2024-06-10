@@ -8,7 +8,7 @@ This video discusses two solutions to move all zeros in an array to the end whil
 
 <br>
 
-**Naive Solution (\( O(n^2) \) time, \( O(1) \) space):**
+**Naive Solution ($O(n^2)$ time, $O(1)$ space):**
 
 1. Traverse the array from the left side.
 2. If a zero is encountered, search for the first non-zero element to the right and swap them.
@@ -20,11 +20,11 @@ Original array: [8, 5, 0, 10, 0, 20]
 After moving zeros: [8, 5, 10, 20, 0, 0]
 ```
 
-**Time Complexity:** \( O(n^2) \) due to nested loops for searching and swapping.
+**Time Complexity:** $O(n^2)$ due to nested loops for searching and swapping.
 
 <br>
 
-**Efficient Solution (\( O(n) \) time, \( O(1) \) space):**
+**Efficient Solution ($O(n)$ time, $O(1)$ space):**
 
 1. Maintain a `count` of non-zero elements encountered so far.
 2. Traverse the array.

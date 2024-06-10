@@ -75,7 +75,7 @@ int secondLargest(int arr[], int n) {
 }
 ```
 
-**Time Complexity:** \( \Theta(n) \) - One traversal of the array. <br>
-**Space Complexity:** \( \Theta(1) \) - Constant extra space.
+**Time Complexity:** $\Theta(n)$ - One traversal of the array. <br>
+**Space Complexity:** $\Theta(1)$ - Constant extra space.
 
 ---

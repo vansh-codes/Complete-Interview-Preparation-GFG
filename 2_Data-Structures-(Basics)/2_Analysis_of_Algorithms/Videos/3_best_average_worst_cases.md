@@ -1,8 +1,8 @@
 ## Summary: Average, Worst, and Best Cases in Algorithms
 
 #### Understanding Algorithm Efficiency
-- **Function Analysis:** Examined a function to compute the sum of array elements, identifying its time complexity as \(C_1 n + C_2\).
-- **Order of Growth:** Recognized that the time complexity is often represented by the dominant term, in this case, \(n\).
+- **Function Analysis:** Examined a function to compute the sum of array elements, identifying its time complexity as $C_1 n + C_2$.
+- **Order of Growth:** Recognized that the time complexity is often represented by the dominant term, in this case, $n$.
   
 #### Cases in Algorithm Analysis
 1. **Best Case:**

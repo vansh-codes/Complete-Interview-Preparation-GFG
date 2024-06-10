@@ -34,8 +34,8 @@ void reverseArray(int arr[], int n) {
 }
 ```
 
-**Time Complexity:** \( \Theta(n) \) - Iterates through the array almost n/2 times.
-**Space Complexity:** \( \Theta(1) \) - Uses constant extra space for variables.
+**Time Complexity:** $\Theta(n)$ - Iterates through the array almost n/2 times. <br>
+**Space Complexity:** $\Theta(1)$ - Uses constant extra space for variables.
 <br><br>
 **Additional Considerations:**
 

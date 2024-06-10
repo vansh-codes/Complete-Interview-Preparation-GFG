@@ -10,7 +10,7 @@ int fun(int n)
 }
 ```
 #### Output: 
-\(\Theta(n^2)\)
+$\Theta(n^2)$
 
 
 ## Question 2
@@ -27,12 +27,12 @@ O(1)
 ```
 
 #### Explanation:
-If \(O(n)\) is the worst-case time complexity, it means that the algorithm's time complexity grows linearly with the size of the input ((n)). Among the given option:
-- \(O(n^2)\) represents a quadratic time complexity, which is worse than linear \(O(n)\).
-- \(O(1)\) represents constant time complexity, which is better than linear \(O(n)\).
-- \(O(n log n)\) represents a time complexity between linear and quadratic, known as linearithmic or log-linear time complexity.
-Therefore, among the given options, \(O(1)\) is the one that represents a better (more efficient) time complexity than \(O(n)\). So, the
-correct answer is: \(O(1)\)
+If $O(n)$ is the worst-case time complexity, it means that the algorithm's time complexity grows linearly with the size of the input ((n)). Among the given option:
+- $O(n^2)$ represents a quadratic time complexity, which is worse than linear $O(n)$.
+- $O(1)$ represents constant time complexity, which is better than linear $O(n)$.
+- $O(n log n)$ represents a time complexity between linear and quadratic, known as linearithmic or log-linear time complexity.
+Therefore, among the given options, $O(1)$ is the one that represents a better (more efficient) time complexity than $O(n)$. So, the
+correct answer is: $O(1)$
 
 ## Question 3
 ```
@@ -48,7 +48,7 @@ n3/(sqrt(n))
 ```
 
 #### Explanation:
-The order of growth of option c is \(n^{2.5}\) which is higher than \(n^2\).
+The order of growth of option c is $n^{2.5}$ which is higher than $n^2$.
 
 ## Question 4
 ```
@@ -66,22 +66,22 @@ f3,f2,f4,f1
 #### Explanation:
 Given functions:
 
-- \( f_1(n) = 2^n \)
-- \( f_2(n) = n^{3/2} \)
-- \( f_3(n) = n \log(n) \)
-- \( f_4(n) = n^{\log(n)} \)
+- $f_1(n) = 2^n$
+- $f_2(n) = n^{3/2}$
+- $f_3(n) = n \log(n)$
+- $f_4(n) = n^{\log(n)}$
 
-Except for \( f_3 \), all other functions are exponential. So, \( f_3 \) is definitely first in the output. Among the remaining functions, \( n^{3/2} \) is next. One way to compare \( f_1 \) and \( f_4 \) is to take the logarithm of both functions. The order of growth of \( \log(f_1(n)) \) is \( \Theta(n) \) and the order of growth of \( \log(f_4(n)) \) is \( \Theta(\log(n) \cdot \log(n)) \). Since \( \Theta(n) \) has a higher growth rate than \( \Theta(\log(n) \cdot \log(n)) \), \( f_1(n) \) grows faster than \( f_4(n) \).
+Except for $f_3$, all other functions are exponential. So, $f_3$ is definitely first in the output. Among the remaining functions, $n^{3/2}$ is next. One way to compare $f_1$ and $f_4$ is to take the logarithm of both functions. The order of growth of $\log(f_1(n))$ is $\Theta(n)$ and the order of growth of $\log(f_4(n))$ is $\Theta(\log(n) \cdot \log(n))$. Since $\Theta(n)$ has a higher growth rate than $\Theta(\log(n) \cdot \log(n))$, $f_1(n)$ grows faster than $f_4(n)$.
 
-Another way to compare \( f_1 \) and \( f_4 \) is to take a few values to compare:
+Another way to compare $f_1$ and $f_4$ is to take a few values to compare:
 
-- For \( n = 32 \):
-  - \( f_1 = 2^{32} \)
-  - \( f_4 = 32^5 = 2^{25} \)
+- For $n = 32$:
+  - $f_1 = 2^{32}$
+  - $f_4 = 32^5 = 2^{25}$
 
-- For \( n = 64 \):
-  - \( f_1 = 2^{64} \)
-  - \( f_4 = 64^6 = 2^{36} \)
+- For $n = 64$:
+  - $f_1 = 2^{64}$
+  - $f_4 = 64^6 = 2^{36}$
 
 Therefore, the order of growth comparison of the given functions is:
 \[ f_3(n) \lt f_2(n) \lt f_4(n) \lt f_1(n) \]
@@ -116,7 +116,7 @@ evaluates to
 
 ```
 #### Output: 
-a. \(2^{n+1}-n-2\)
+a. $2^{n+1}-n-2$
 
 ## Question 7
 ```
@@ -161,7 +161,7 @@ void fun(int n){
 }
 ```
 #### Output: 
-\(\Theta(n log n)\)
+$\Theta(n log n)$
 
 ## Question 10
 ```cpp

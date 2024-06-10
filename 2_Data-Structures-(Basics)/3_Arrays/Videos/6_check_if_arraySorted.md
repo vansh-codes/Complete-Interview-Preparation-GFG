@@ -37,7 +37,7 @@ Given an array, the task is to determine if the array is sorted in non-decreasin
      }
      ```
 
-3. **Time Complexity**: \( O(n^2) \) in the worst case.
+3. **Time Complexity**: $O(n^2)$ in the worst case.
 
 #### Efficient Approach
 1. **Concept**:
@@ -70,11 +70,11 @@ Given an array, the task is to determine if the array is sorted in non-decreasin
      }
      ```
 
-3. **Time Complexity**: \( O(n) \) always.
+3. **Time Complexity**: $O(n)$ always.
 
 #### Summary
-- **Naive Approach**: Compares every element with all elements to its right, resulting in \( O(n^2) \) time complexity.
-- **Efficient Approach**: Checks each element against its previous one, achieving \( O(n) \) time complexity.
+- **Naive Approach**: Compares every element with all elements to its right, resulting in $O(n^2)$ time complexity.
+- **Efficient Approach**: Checks each element against its previous one, achieving $O(n)$ time complexity.
 - The efficient approach is preferred due to its linear time complexity and constant auxiliary space requirement.
 
 ---

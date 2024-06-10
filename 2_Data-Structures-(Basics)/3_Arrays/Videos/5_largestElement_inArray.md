@@ -50,9 +50,9 @@ We are given an array, and we need to find the index of the largest element. For
      ```
 
 3. **Time Complexity**:
-   - Worst-case: \( O(n^2) \)
-   - Best-case: \( O(n) \)
-   - General: \( O(n^2) \)
+   - Worst-case: $O(n^2)$
+   - Best-case: $O(n)$
+   - General: $O(n^2)$
 
 #### Efficient Approach
 1. **Concept**:
@@ -87,11 +87,11 @@ We are given an array, and we need to find the index of the largest element. For
      ```
 
 3. **Time Complexity**:
-   - Always \( \Theta(n) \) since it traverses the array exactly once.
+   - Always $\Theta(n)$ since it traverses the array exactly once.
 
 #### Summary
-- **Naive Approach**: Involves two nested loops, resulting in \( O(n^2) \) time complexity.
-- **Efficient Approach**: Uses a single loop to keep track of the largest element, resulting in \( \Theta(n) \) time complexity.
+- **Naive Approach**: Involves two nested loops, resulting in $O(n^2)$ time complexity.
+- **Efficient Approach**: Uses a single loop to keep track of the largest element, resulting in $\Theta(n)$ time complexity.
 - The efficient approach is preferable as it significantly reduces the time complexity, especially for large arrays.
 
 ---

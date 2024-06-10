@@ -36,7 +36,7 @@ void leftRotateByOne(int arr[], int n) {
 - The loop iterates from the second element (`i = 1`) to the second last element (`i < n`) and shifts each element one position to the left using `arr[i - 1] = arr[i]`. This creates a space at the beginning for the first element.
 - Finally, the temporary variable `temp` (containing the original first element) is assigned to the last position (`arr[n - 1]`).
 
-**Time Complexity:** \( \Theta(n) \) due to the single loop iterating through the array. <br>
-**Space Complexity:** \( \Theta(1) \) as it uses only a constant amount of extra space for the temporary variable.
+**Time Complexity:** $\Theta(n)$ due to the single loop iterating through the array. <br>
+**Space Complexity:** $\Theta(1)$ as it uses only a constant amount of extra space for the temporary variable.
 
 ---

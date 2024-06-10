@@ -3,9 +3,9 @@
 #### Introduction to Asymptotic Notations
 - **Purpose:** Asymptotic notations are mathematical representations used to express the order of growth of mathematical functions.
 - **Popular Notations:** Three main asymptotic notations are discussed: 
-  - **Big O (\(O\) )**: Represents an upper bound on the order of growth.
-  - **Theta (\(\Theta\) )**: Represents the exact order of growth.
-  - **Omega (\(\Omega\) )**: Represents a lower bound or exact amount.
+  - **Big O ($O$ )**: Represents an upper bound on the order of growth.
+  - **Theta ($\Theta$ )**: Represents the exact order of growth.
+  - **Omega ($\Omega$ )**: Represents a lower bound or exact amount.
 
 #### Need for Different Notations
 - **Upper Bound vs. Exact Bound:** Different situations require different levels of precision in expressing the order of growth.
@@ -16,8 +16,8 @@
 - **Utility:** Useful for expressing worst-case scenarios and providing an upper bound on the time complexity of algorithms.
 
 #### Insights into Theta and Omega Notations
-- **Theta (\(\Theta\) ) Notation:** Denotes the exact order of growth, providing a precise characterization of algorithmic performance.
-- **Omega (\(\Omega\) ) Notation:** Represents a lower bound or exact amount, but is less commonly used due to its focus on lower limits.
+- **Theta ($\Theta$ ) Notation:** Denotes the exact order of growth, providing a precise characterization of algorithmic performance.
+- **Omega ($\Omega$ ) Notation:** Represents a lower bound or exact amount, but is less commonly used due to its focus on lower limits.
 
 #### Practical Considerations
 - **Preference for Upper Bound:** In algorithm analysis, emphasis is often placed on upper bounds, making Big O notation the most frequently used.

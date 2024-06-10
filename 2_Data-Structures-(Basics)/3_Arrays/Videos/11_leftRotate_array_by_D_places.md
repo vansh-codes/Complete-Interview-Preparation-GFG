@@ -18,15 +18,15 @@ Consider the array `[1, 2, 3, 4, 5]`. After a left rotation by 2, the array beco
 
 **Solutions:**
 
-1. **Naive Solution (\( \Theta(n*D) \) time, \( \Theta(1) \) space):**
+1. **Naive Solution ($\Theta(n*D)$ time, $\Theta(1)$ space):**
    - Call the left rotate by one function D times. (Discussed in previous video)
 
-2. **Efficient Solution with \( \Theta(D) \) Extra Space (\( \Theta(n) \) time, \( \Theta(D) \) space):**
+2. **Efficient Solution with $\Theta(D)$ Extra Space ($\Theta(n)$ time, $\Theta(D)$ space):**
    - Create a temporary array of size D to store the first D elements.
    - Shift the remaining elements (n-D) to the left by D positions.
    - Copy the temporary elements back to the beginning of the array.
 
-3. **Efficient Solution with \( \Theta(1) \) Extra Space (Theta(n) time, \( \Theta(1) \) space):**
+3. **Efficient Solution with $\Theta(1)$ Extra Space (Theta(n) time, $\Theta(1)$ space):**
    - Reverse the first D elements.
    - Reverse the remaining (n-D) elements.
    - Reverse the entire array.
@@ -60,12 +60,12 @@ void reverse(int arr[], int low, int high) {
 
 **Time Complexity:**
 
-- Solution 1: \( \Theta(n*D) \)
-- Solution 2 & 3: \( \Theta(n) \)
+- Solution 1: $\Theta(n*D)$
+- Solution 2 & 3: $\Theta(n)$
 
 **Space Complexity:**
 
-- Solution 1 & 3: \( \Theta(1) \)
-- Solution 2: \( \Theta(D) \)
+- Solution 1 & 3: $\Theta(1)$
+- Solution 2: $\Theta(D)$
 
 ---

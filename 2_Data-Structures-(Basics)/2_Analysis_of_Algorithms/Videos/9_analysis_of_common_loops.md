@@ -12,9 +12,9 @@
      }
      ```
    - **Analysis**:
-     - The loop runs from 0 to \( n-1 \), executing \( n \) times.
+     - The loop runs from 0 to $n-1$, executing $n$ times.
      - Each iteration performs a constant number of operations.
-     - **Time Complexity**: \( O(n) \).
+     - **Time Complexity**: $O(n)$.
 
 3. **Nested Loops**:
    - **Example 1**:
@@ -26,10 +26,10 @@
      }
      ```
    - **Analysis**:
-     - The outer loop runs \( n \) times.
-     - For each iteration of the outer loop, the inner loop also runs \( n \) times.
-     - Total iterations: \( n \times n = n^2 \).
-     - **Time Complexity**: \( O(n^2) \).
+     - The outer loop runs $n$ times.
+     - For each iteration of the outer loop, the inner loop also runs $n$ times.
+     - Total iterations: $n \times n = n^2$.
+     - **Time Complexity**: $O(n^2)$.
 
    - **Example 2**:
      ```cpp
@@ -40,10 +40,10 @@
      }
      ```
    - **Analysis**:
-     - The outer loop runs \( n \) times.
-     - The inner loop runs \( i \) times for each iteration of the outer loop.
-     - Total iterations: \( 0 + 1 + 2 + \ldots + (n-1) = \frac{n(n-1)}{2} \).
-     - **Time Complexity**: \( O(n^2) \).
+     - The outer loop runs $n$ times.
+     - The inner loop runs $i$ times for each iteration of the outer loop.
+     - Total iterations: $0 + 1 + 2 + \ldots + (n-1) = \frac{n(n-1)}{2}$.
+     - **Time Complexity**: $O(n^2)$.
 
 4. **Logarithmic Loop**:
    - **Example**:
@@ -53,9 +53,9 @@
      }
      ```
    - **Analysis**:
-     - The loop variable \( i \) doubles each iteration.
-     - The number of iterations is \( \log_2{n} \).
-     - **Time Complexity**: \( O(\log{n}) \).
+     - The loop variable $i$ doubles each iteration.
+     - The number of iterations is $\log_2{n}$.
+     - **Time Complexity**: $O(\log{n})$.
 
 5. **Loop with Linear and Logarithmic Components**:
    - **Example**:
@@ -67,10 +67,10 @@
      }
      ```
    - **Analysis**:
-     - The outer loop runs \( n \) times.
-     - The inner loop runs \( \log_2{n} \) times for each iteration of the outer loop.
-     - Total iterations: \( n \times \log_2{n} \).
-     - **Time Complexity**: \( O(n \log{n}) \).
+     - The outer loop runs $n$ times.
+     - The inner loop runs $\log_2{n}$ times for each iteration of the outer loop.
+     - Total iterations: $n \times \log_2{n}$.
+     - **Time Complexity**: $O(n \log{n})$.
 
 6. **Example with Multiple Variables**:
    - **Example**:
@@ -82,15 +82,15 @@
      }
      ```
    - **Analysis**:
-     - The outer loop runs \( n \) times.
-     - The inner loop runs \( m \) times for each iteration of the outer loop.
-     - Total iterations: \( n \times m \).
-     - **Time Complexity**: \( O(nm) \).
+     - The outer loop runs $n$ times.
+     - The inner loop runs $m$ times for each iteration of the outer loop.
+     - Total iterations: $n \times m$.
+     - **Time Complexity**: $O(nm)$.
 
 ### Summary:
 Analyzing loops is essential for understanding the time complexity of algorithms. Common loops include single loops, nested loops, logarithmic loops, and combinations of these. The key takeaway is:
-- Single loops generally have a time complexity of \( O(n) \).
-- Nested loops' time complexities depend on the multiplicative effect of each loop, often resulting in \( O(n^2) \) or higher.
-- Logarithmic loops exhibit \( O(\log{n}) \) complexity.
-- Combining linear and logarithmic loops results in \( O(n \log{n}) \).
-- Loops with multiple variables involve \( O(nm) \) time complexity, indicating the dependency on multiple input sizes.
+- Single loops generally have a time complexity of $O(n)$.
+- Nested loops' time complexities depend on the multiplicative effect of each loop, often resulting in $O(n^2)$ or higher.
+- Logarithmic loops exhibit $O(\log{n})$ complexity.
+- Combining linear and logarithmic loops results in $O(n \log{n})$.
+- Loops with multiple variables involve $O(nm)$ time complexity, indicating the dependency on multiple input sizes.
