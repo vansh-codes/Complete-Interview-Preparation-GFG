@@ -2,6 +2,11 @@
 
 This repository contains solutions to all quizzes, multiple-choice questions (MCQs), and coding problems from the "Complete Interview Preparation" course by GeeksforGeeks. The solutions are implemented in C++.
 
+<div align="center">
+<a href= "https://www.geeksforgeeks.org/courses/complete-interview-preparation?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="gfg" hieght=40px /></a>
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="gfg" hieght=40px /> <br />
+</div>
+
 ## Overview
 
 The GeeksforGeeks "Complete Interview Preparation" course is designed to help candidates prepare for technical interviews. It covers a wide range of topics essential for coding interviews, including data structures, algorithms, database management system, computer networks and more. This repository serves as a comprehensive collection of solutions to aid in your preparation journey.
