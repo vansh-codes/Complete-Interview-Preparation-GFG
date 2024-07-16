@@ -28,7 +28,9 @@ The GeeksforGeeks "Complete Interview Preparation" course is designed to help ca
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have improvements, feel free to open an issue or submit a pull request. Make sure to follow the contribution guidelines.
+Contributions are welcome! If you find any issues or have improvements, feel free to open an issue or submit a pull request. Please ensure that any contributions adhere to the existing code style guidelines.
+
+Add solutions that are not yet present in the repository and ensure they follow the established coding standards.
 
 ## License
 
