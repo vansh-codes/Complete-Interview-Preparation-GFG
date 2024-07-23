@@ -117,7 +117,7 @@ Pick the correct statement about references.
 ```
 #### Output: 
 ```
-2. Reference should not be initialized when created
+3. References once assigned cannot be changed to refer another variable
 ```
 
 # Question 7
