@@ -5,6 +5,7 @@ This repository contains solutions to all quizzes, multiple-choice questions (MC
 <div align="center">
 <a href= "https://www.geeksforgeeks.org/courses/complete-interview-preparation?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="gfg" hieght=40px /></a>
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="gfg" hieght=40px /> <br />
+<img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fvansh-codes%2FComplete-Interview-Preparation-GFG&label=visitors&countColor=%2337d67a&style=for-the-badge&labelStyle=upper" height=30px />
 </div>
 
 ## Overview
